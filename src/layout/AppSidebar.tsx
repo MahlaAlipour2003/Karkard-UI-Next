@@ -88,8 +88,8 @@ const othersItems: NavItem[] = [
     icon: <PlugInIcon />,
     name: "احراز هویت",
     subItems: [
-      { name: "Sign In", path: "/signin", pro: false },
-      { name: "Sign Up", path: "/signup", pro: false },
+      { name: "ورود", path: "/signin", pro: false },
+      { name: "ثبت نام", path: "/signup", pro: false },
     ],
   },
 ];
@@ -348,7 +348,7 @@ const AppSidebar: React.FC = () => {
                 }`}
               >
                 {isExpanded || isHovered || isMobileOpen ? (
-                  "Menu"
+                  "منو"
                 ) : (
                   <HorizontaLDots />
                 )}
@@ -364,11 +364,11 @@ const AppSidebar: React.FC = () => {
                     : "justify-start"
                 }`}
               >
-                {isExpanded || isHovered || isMobileOpen ? (
+                {/* {isExpanded || isHovered || isMobileOpen ? (
                   "Others"
                 ) : (
                   <HorizontaLDots />
-                )}
+                )} */}
               </h2>
               {renderMenuItems(othersItems, "others")}
             </div>
