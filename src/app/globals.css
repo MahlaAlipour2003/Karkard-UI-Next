@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+﻿@import 'tailwindcss';
 
 @custom-variant dark (&:is(.dark *));
 
@@ -292,9 +292,12 @@
   }
 }
 
+/*.bg-primary{
+    rgba(70,95,255,1)
+}*/
 /* third-party libraries CSS */
 .apexcharts-legend-text {
-  @apply !text-gray-700 dark:!text-gray-400;
+    @apply !text-gray-700 dark:!text-gray-400;
 }
 
 .apexcharts-text {
@@ -738,3 +741,63 @@ span.flatpickr-weekday,
   opacity: 0.8;
   cursor: grabbing; /* Changes the cursor to indicate dragging */
 }
+
+/*----------------------------------------------------------------------------------*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .bg-primary {
+        background-color: #7c5ccb
+    }
+    /* استایل پایه برای همه دکمه‌ها */
+    .btn {
+        @apply inline-flex items-center justify-center font-medium px-4 py-2 rounded transition shadow-sm;
+    }
+
+    /* انواع رنگی مثل Bootstrap */
+    .btn-primary {
+         background-color:#7c5ccb;
+    }
+
+    .btn-secondaryy {
+        @apply bg-blue-300 text-white hover:bg-blue-400 active:bg-blue-300;
+    }
+
+    .btn-success {
+        @apply bg-green-600 text-white hover:bg-green-700 active:bg-green-800;
+    }
+
+    .btn-danger {
+        @apply bg-red-600 text-white hover:bg-red-700 active:bg-red-800;
+    }
+
+    .btn-warning {
+        @apply bg-yellow-500 text-black hover:bg-yellow-600 active:bg-yellow-700;
+    }
+
+    .btn-info {
+        @apply bg-cyan-500 text-white hover:bg-cyan-600 active:bg-cyan-700;
+    }
+
+    /* حالت Outline (مثل btn-outline-*) */
+    .btn-outline-primary {
+        @apply border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white;
+    }
+
+    .btn-outline-danger {
+        @apply border border-red-600 text-red-600 hover:bg-red-600 hover:text-white;
+    }
+
+    /* سایزها */
+    .btn-sm {
+        @apply text-sm px-3 py-1.5;
+    }
+
+    .btn-lg {
+        @apply text-lg px-6 py-3;
+    }
+}
+

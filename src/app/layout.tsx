@@ -1,6 +1,11 @@
 import { Outfit } from 'next/font/google';
 import './globals.css';
 
+
+/*import "@/assets/css/argon-dashboard-react.css";*/
+/*import "@/assets/scss/argon-dashboard-react.scss";*/
+
+
 import { SidebarProvider } from '@/context/SidebarContext';
 import { ThemeProvider } from '@/context/ThemeContext';
 

@@ -43,6 +43,18 @@ const navItems: NavItem[] = [
     path: "/profile",
   },
 
+    {
+    name: "صفحات کارکرد",
+    icon: <PageIcon />,
+    subItems: [
+      { name: "پروژه ها", path: "/projectsPage", pro: false },
+      { name: "کاربران", path: "/userspage", pro: false },
+      { name: "نوع کار", path: "/workTypePage", pro: false },
+      { name: " ورود و خروج هفتگی", path: "/weeklyCheckInCheckOutTbl", pro: false },
+      { name: " ورود و خروج توتال", path: "/totalCheckInCheckOutTbl", pro: false },
+    ],
+  },
+
   {
     name: "فرم ها",
     icon: <ListIcon />,
@@ -298,13 +310,13 @@ const AppSidebar: React.FC = () => {
             ? "w-[290px]"
             : "w-[90px]"
         }
-        ${isMobileOpen ? "translate-x-0" : "-translate-x-full"}
+        ${isMobileOpen ? "translate-x-0" : "translate-x-full"}
         lg:translate-x-0`}
       onMouseEnter={() => !isExpanded && setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
       <div
-        className={`py-8 flex  ${
+        className={`py-4 flex  ${
           !isExpanded && !isHovered ? "lg:justify-center" : "justify-start"
         }`}
       >

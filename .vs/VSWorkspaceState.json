@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\(full-width-pages)",
+    "\\src\\app\\(full-width-pages)\\(karkardPages)",
+    "\\src\\app\\(full-width-pages)\\(karkardPages)\\totalCheckInCheckOutTbl",
+    "\\src\\assets",
+    "\\src\\assets\\css",
+    "\\src\\components",
+    "\\src\\components\\AkarkardComponents"
+  ],
+  "SelectedNode": "\\src\\app\\layout.tsx",
+  "PreviewInSolutionExplorer": false
+}

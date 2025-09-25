@@ -3,7 +3,7 @@
   "version": "2.0.2",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 8000",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -21,6 +21,7 @@
     "@tailwindcss/postcss": "^4.0.9",
     "apexcharts": "^4.3.0",
     "autoprefixer": "^10.4.20",
+    "axios": "^1.12.2",
     "flatpickr": "^4.6.13",
     "next": "15.2.3",
     "react": "^19.0.0",
@@ -29,7 +30,11 @@
     "react-dnd-html5-backend": "^16.0.1",
     "react-dom": "^19.0.0",
     "react-dropzone": "^14.3.5",
+    "react-multi-date-picker": "^4.5.2",
+    "reactstrap": "^9.2.3",
+    "sass": "^1.92.1",
     "swiper": "^11.2.0",
+    "tailwind": "^4.0.0",
     "tailwind-merge": "^2.6.0"
   },
   "devDependencies": {
