@@ -7,6 +7,7 @@ import StatisticsChart from "@/components/ecommerce/StatisticsChart";
 import RecentOrders from "@/components/ecommerce/RecentOrders";
 import DemographicCard from "@/components/ecommerce/DemographicCard";
 import TimerCard from "@/components/AkarkardComponents/TimerCard";
+import DashboardTimerTbl from "@/components/AkarkardComponents/DashboardTimerTbl";
 
 export const metadata: Metadata = {
   title:
@@ -17,19 +18,20 @@ export const metadata: Metadata = {
 export default function Ecommerce() {
   return (
     <div className="grid grid-cols-12 gap-4 md:gap-6">
+
+       <div className="col-span-12 xl:col-span-12 ">
+          <TimerCard />
+        </div>
+        <div className="col-span-12 xl:col-span-12 ">
+              <DashboardTimerTbl/>
+        </div>
+
       <div className="col-span-12 space-y-6 xl:col-span-7">
         <EcommerceMetrics />
 
         <MonthlySalesChart />
       </div>
 
-       <div className="col-span-6 xl:col-span-5  bg-green-100">
-          <TimerCard />
-          </div>
-
-          <div className="col-span-6 xl:col-span-5  bg-green-100">
-              <TimerCard />
-          </div>
 
       <div className="col-span-12 xl:col-span-5">
          <MonthlyTarget />

@@ -52,8 +52,8 @@ const WeeklyCheckInCheckOutTbl = forwardRef<WeeklyCheckInCheckOutTblRef, WeeklyC
     return (
         <div dir="rtl" className="w-full">
             <div className="bg-white rounded-md shadow p-4">
-                <div className="flex items-center justify-start space-x-2 space-x-reverse">
-                    <Label className="text-gray-700 font-medium">نمایش محتویات</Label>
+                <div className="flex justify-end items-center space-x-2 space-x-reverse mb-4">
+                    <Label className="text-gray-700 font-medium m-2">نمایش محتویات</Label>
                     <Input type="select" className="ml-3 w-20 border border-gray-300 rounded-md px-2 py-1 text-sm focus:ring-2 focus:ring-blue-500">
                         <option>10</option>
                         <option>25</option>

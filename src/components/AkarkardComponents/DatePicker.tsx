@@ -8,51 +8,16 @@ export default function PersianDatePicker() {
     const [date, setDate] = useState<DateObject | null>(null);
 
     return (
-        <div className="container m-4">
+        <div className="container">
             <DatePicker
                 value={date}
                 onChange={setDate}
                 calendar={persian}
                 locale={persian_fa}
                 calendarPosition="bottom-right"
-                inputClass="form-control"
+                inputClass="number bg-gray-50 border py-1 px-6 rounded transition focus:border-purple-400 focus:ring-2 focus:ring-purple-400"
                 format="YYYY/MM/DD"
             />
         </div>
     );
 }
-
-
-//'use client'
-//import React, { useState } from "react";
-
-//type DatePickerrProps = {
-//    value?: string;
-//    onChange?: (value: string) => void;
-//    placeholder?: string;
-//};
-
-//const DatePicker: React.FC<DatePickerrProps> = ({
-//    value,
-//    onChange,
-//    placeholder = "تاریخ را انتخاب کنید",
-//}) => {
-//    const [selectedDate, setSelectedDate] = useState < string > (value || "");
-
-//    const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-//        setSelectedDate(e.target.value);
-//        onChange?.(e.target.value);
-//    };
-
-//    return (
-//        <input
-//            type="date"
-//            value={selectedDate}
-//            onChange={handleChange}
-//            className="border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-//            placeholder={placeholder}
-//        />
-//    );
-//};
-
-//export default DatePicker;

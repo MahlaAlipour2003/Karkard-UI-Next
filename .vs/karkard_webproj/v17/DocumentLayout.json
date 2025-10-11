@@ -3,28 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\app\\(admin)\\layout.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\(admin)\\layout.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\app\\(admin)\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\(admin)\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\components\\AkarkardComponents\\Timer.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\AkarkardComponents\\Timer.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\components\\AkarkardComponents\\common\\PageBreadCrumb.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\AkarkardComponents\\common\\PageBreadCrumb.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\components\\AkarkardComponents\\common\\GridShape.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\AkarkardComponents\\common\\GridShape.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\app\\(admin)\\(karkardPages)\\calendarr\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\(admin)\\(karkardPages)\\calendarr\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\components\\AkarkardComponents\\calendar\\Calendar.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\AkarkardComponents\\calendar\\Calendar.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\app\\globals.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\globals.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\app\\(full-width-pages)\\(karkardPages)\\totalCheckInCheckOutTbl\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\(full-width-pages)\\(karkardPages)\\totalCheckInCheckOutTbl\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\components\\calendar\\Calendar.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\calendar\\Calendar.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\app\\(full-width-pages)\\(karkardPages)\\weeklyCheckInCheckOutTbl\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\(full-width-pages)\\(karkardPages)\\weeklyCheckInCheckOutTbl\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\components\\common\\PageBreadCrumb.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\common\\PageBreadCrumb.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\components\\AkarkardComponents\\DatePicker.tsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\AkarkardComponents\\DatePicker.tsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\app\\(admin)\\(others-pages)\\calendar\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\(admin)\\(others-pages)\\calendar\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,90 +71,153 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             }
           ]
         },
         {
           "DockedWidth": 9,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "page.tsx",
-              "DocumentMoniker": "C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\app\\(admin)\\page.tsx",
-              "RelativeDocumentMoniker": "src\\app\\(admin)\\page.tsx",
-              "ToolTip": "C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\app\\(admin)\\page.tsx",
-              "RelativeToolTip": "src\\app\\(admin)\\page.tsx",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAiwB8AAAAQAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\app\\(admin)\\(others-pages)\\calendar\\page.tsx",
+              "RelativeDocumentMoniker": "src\\app\\(admin)\\(others-pages)\\calendar\\page.tsx",
+              "ToolTip": "C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\app\\(admin)\\(others-pages)\\calendar\\page.tsx",
+              "RelativeToolTip": "src\\app\\(admin)\\(others-pages)\\calendar\\page.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-23T19:46:01.446Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T16:56:30.365Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DatePicker.tsx",
-              "DocumentMoniker": "C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\components\\AkarkardComponents\\DatePicker.tsx",
-              "RelativeDocumentMoniker": "src\\components\\AkarkardComponents\\DatePicker.tsx",
-              "ToolTip": "C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\components\\AkarkardComponents\\DatePicker.tsx",
-              "RelativeToolTip": "src\\components\\AkarkardComponents\\DatePicker.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "PageBreadCrumb.tsx",
+              "DocumentMoniker": "C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\components\\common\\PageBreadCrumb.tsx",
+              "RelativeDocumentMoniker": "src\\components\\common\\PageBreadCrumb.tsx",
+              "ToolTip": "C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\components\\common\\PageBreadCrumb.tsx",
+              "RelativeToolTip": "src\\components\\common\\PageBreadCrumb.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-23T19:19:15.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T16:58:29.388Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Calendar.tsx",
+              "DocumentMoniker": "C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\components\\calendar\\Calendar.tsx",
+              "RelativeDocumentMoniker": "src\\components\\calendar\\Calendar.tsx",
+              "ToolTip": "C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\components\\calendar\\Calendar.tsx",
+              "RelativeToolTip": "src\\components\\calendar\\Calendar.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-10-08T16:58:37.353Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "page.tsx",
-              "DocumentMoniker": "C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\app\\(full-width-pages)\\(karkardPages)\\weeklyCheckInCheckOutTbl\\page.tsx",
-              "RelativeDocumentMoniker": "src\\app\\(full-width-pages)\\(karkardPages)\\weeklyCheckInCheckOutTbl\\page.tsx",
-              "ToolTip": "C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\app\\(full-width-pages)\\(karkardPages)\\weeklyCheckInCheckOutTbl\\page.tsx",
-              "RelativeToolTip": "src\\app\\(full-width-pages)\\(karkardPages)\\weeklyCheckInCheckOutTbl\\page.tsx",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAUAAAAKAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\app\\(admin)\\(karkardPages)\\calendarr\\page.tsx",
+              "RelativeDocumentMoniker": "src\\app\\(admin)\\(karkardPages)\\calendarr\\page.tsx",
+              "ToolTip": "C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\app\\(admin)\\(karkardPages)\\calendarr\\page.tsx",
+              "RelativeToolTip": "src\\app\\(admin)\\(karkardPages)\\calendarr\\page.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-22T19:27:23.427Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "page.tsx",
-              "DocumentMoniker": "C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\app\\(full-width-pages)\\(karkardPages)\\totalCheckInCheckOutTbl\\page.tsx",
-              "RelativeDocumentMoniker": "src\\app\\(full-width-pages)\\(karkardPages)\\totalCheckInCheckOutTbl\\page.tsx",
-              "ToolTip": "C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\app\\(full-width-pages)\\(karkardPages)\\totalCheckInCheckOutTbl\\page.tsx",
-              "RelativeToolTip": "src\\app\\(full-width-pages)\\(karkardPages)\\totalCheckInCheckOutTbl\\page.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-22T19:22:02.827Z",
+              "WhenOpened": "2025-10-08T17:01:49.073Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "globals.css",
-              "DocumentMoniker": "C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\app\\globals.css",
-              "RelativeDocumentMoniker": "src\\app\\globals.css",
-              "ToolTip": "C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\app\\globals.css",
-              "RelativeToolTip": "src\\app\\globals.css",
-              "ViewState": "AgIAAOcCAAAAAAAAAAAiwPwCAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-21T19:42:41.126Z",
+              "Title": "PageBreadCrumb.tsx",
+              "DocumentMoniker": "C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\components\\AkarkardComponents\\common\\PageBreadCrumb.tsx",
+              "RelativeDocumentMoniker": "src\\components\\AkarkardComponents\\common\\PageBreadCrumb.tsx",
+              "ToolTip": "C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\components\\AkarkardComponents\\common\\PageBreadCrumb.tsx",
+              "RelativeToolTip": "src\\components\\AkarkardComponents\\common\\PageBreadCrumb.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-10-08T17:04:30.157Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Calendar.tsx",
+              "DocumentMoniker": "C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\components\\AkarkardComponents\\calendar\\Calendar.tsx",
+              "RelativeDocumentMoniker": "src\\components\\AkarkardComponents\\calendar\\Calendar.tsx",
+              "ToolTip": "C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\components\\AkarkardComponents\\calendar\\Calendar.tsx",
+              "RelativeToolTip": "src\\components\\AkarkardComponents\\calendar\\Calendar.tsx",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAcwJAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-10-08T17:05:48.255Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "layout.tsx",
+              "DocumentMoniker": "C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\app\\(admin)\\layout.tsx",
+              "RelativeDocumentMoniker": "src\\app\\(admin)\\layout.tsx",
+              "ToolTip": "C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\app\\(admin)\\layout.tsx",
+              "RelativeToolTip": "src\\app\\(admin)\\layout.tsx",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-10-11T07:57:44.731Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Timer.tsx",
-              "DocumentMoniker": "C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\components\\AkarkardComponents\\Timer.tsx",
-              "RelativeDocumentMoniker": "src\\components\\AkarkardComponents\\Timer.tsx",
-              "ToolTip": "C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\components\\AkarkardComponents\\Timer.tsx",
-              "RelativeToolTip": "src\\components\\AkarkardComponents\\Timer.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABJAAAAAAAAAA==",
+              "Title": "page.tsx",
+              "DocumentMoniker": "C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\app\\(admin)\\page.tsx",
+              "RelativeDocumentMoniker": "src\\app\\(admin)\\page.tsx",
+              "ToolTip": "C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\app\\(admin)\\page.tsx",
+              "RelativeToolTip": "src\\app\\(admin)\\page.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-19T13:45:36.069Z",
+              "WhenOpened": "2025-10-11T07:53:00.554Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GridShape.tsx",
+              "DocumentMoniker": "C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\components\\AkarkardComponents\\common\\GridShape.tsx",
+              "RelativeDocumentMoniker": "src\\components\\AkarkardComponents\\common\\GridShape.tsx",
+              "ToolTip": "C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\components\\AkarkardComponents\\common\\GridShape.tsx",
+              "RelativeToolTip": "src\\components\\AkarkardComponents\\common\\GridShape.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-10-11T07:51:09.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "globals.css",
+              "DocumentMoniker": "C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\app\\globals.css",
+              "RelativeDocumentMoniker": "src\\app\\globals.css",
+              "ToolTip": "C:\\Users\\V I S I O N\\Desktop\\karkard_webproj\\src\\app\\globals.css",
+              "RelativeToolTip": "src\\app\\globals.css",
+              "ViewState": "AgIAADQDAAAAAAAAAAApwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-11T07:46:04.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

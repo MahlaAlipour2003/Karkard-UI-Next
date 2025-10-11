@@ -3,14 +3,12 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\(full-width-pages)",
-    "\\src\\app\\(full-width-pages)\\(karkardPages)",
-    "\\src\\app\\(full-width-pages)\\(karkardPages)\\totalCheckInCheckOutTbl",
-    "\\src\\assets",
-    "\\src\\assets\\css",
+    "\\src\\app\\(admin)",
+    "\\src\\app\\(admin)\\(karkardPages)\\calendarr",
     "\\src\\components",
-    "\\src\\components\\AkarkardComponents"
+    "\\src\\components\\AkarkardComponents",
+    "\\src\\components\\AkarkardComponents\\calendar"
   ],
-  "SelectedNode": "\\src\\app\\layout.tsx",
+  "SelectedNode": "\\src\\app\\(admin)\\layout.tsx",
   "PreviewInSolutionExplorer": false
 }

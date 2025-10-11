@@ -1,22 +1,16 @@
-﻿'use client'
+﻿'use client';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import axios, { AxiosError } from 'axios';
-import { useCallback } from 'react';
-import React, { useState, useEffect, useRef } from 'react';
-//import { ArrowDownIcon, ArrowUpIcon, BoxIconLine, GroupIcon } from "@/icons";
-//import Badge from "../ui/badge/Badge";
-import { Button } from 'reactstrap';
-
-localStorage.setItem("userId", "74");
-
 
 interface TimerProps {
     userId?: number;
     tableRef?: React.RefObject<{ refresh: () => void } | null>;
 }
+
 const Timer: React.FC<TimerProps> = ({ userId: propUserId, tableRef }) => {
-    const userId: number = propUserId ?? Number(localStorage.getItem("userId") ?? 0);
+    const userId: number = propUserId ?? Number(localStorage.getItem('userId') ?? 0);
     const [isRunning, setIsRunning] = useState(false);
-    const [liveTime, setLiveTime] = useState("00:00:00");
+    const [liveTime, setLiveTime] = useState('00:00:00');
     const intervalRef = useRef<NodeJS.Timeout | null>(null);
     const startTimestampRef = useRef<number | null>(null);
 
@@ -37,14 +31,12 @@ const Timer: React.FC<TimerProps> = ({ userId: propUserId, tableRef }) => {
             }
         }, 1000);
         setIsRunning(true);
-    }, [])
+    }, []);
 
     const stopLiveTimer = () => {
-        if (intervalRef.current) {
-            clearInterval(intervalRef.current);
-        }
+        if (intervalRef.current) clearInterval(intervalRef.current);
         setIsRunning(false);
-        setLiveTime("00:00:00");
+        setLiveTime('00:00:00');
     };
 
     const handleCheckIn = async () => {
@@ -52,11 +44,11 @@ const Timer: React.FC<TimerProps> = ({ userId: propUserId, tableRef }) => {
             const res = await axios.post(`https://localhost:8215/baseInformation/time/checkin/${userId}`);
             if (res.status === 200) {
                 startLiveTimer(Date.now());
-                tableRef?.current?.refresh(); // بعد از ثبت ورود جدول رو رفرش کن
+                tableRef?.current?.refresh();
             }
         } catch (error) {
             const err = error as AxiosError<{ message?: string }>;
-            alert(err.response?.data || "خطا در ثبت ورود");
+            alert(err.response?.data || 'خطا در ثبت ورود');
         }
     };
 
@@ -65,11 +57,11 @@ const Timer: React.FC<TimerProps> = ({ userId: propUserId, tableRef }) => {
             const res = await axios.post(`https://localhost:8215/baseInformation/time/checkout/${userId}`);
             if (res.status === 200) {
                 stopLiveTimer();
-                tableRef?.current?.refresh(); // بعد از ثبت خروج جدول رو رفرش کن
+                tableRef?.current?.refresh();
             }
         } catch (error) {
             const err = error as AxiosError<{ message?: string }>;
-            alert(err.response?.data || "خطا در ثبت خروج");
+            alert(err.response?.data || 'خطا در ثبت خروج');
         }
     };
 
@@ -82,57 +74,48 @@ const Timer: React.FC<TimerProps> = ({ userId: propUserId, tableRef }) => {
                     startLiveTimer(startTime);
                 }
             } catch {
-                console.error("خطا در دریافت وضعیت کاربر");
+                console.error('خطا در دریافت وضعیت کاربر');
             }
         };
         fetchStatus();
         return () => {
-            if (intervalRef.current) {
-                clearInterval(intervalRef.current);
-            }
+            if (intervalRef.current) clearInterval(intervalRef.current);
         };
     }, [userId, startLiveTimer]);
 
+
     return (
-        <div
-            style={{
-                display: "flex",
-                flexDirection: "column",
-                alignItems: "center",
-                justifyContent: "center",
-                width: "100%",
-                height: "100%",  // اصلاح شده
-                border: "none"
-            }}
-        >
-            <h2 className="text-black mt-9">ثبت ورود و خروج</h2>
+        <div className="mt-5 flex flex-col md:flex-row items-center justify-center w-full bg-gradient-to-br from-purple-90 to-indigo-90 p-8 gap-21">
 
-            {isRunning && (
-                <div
-                    className="alert alert-info text-center w-100"
-                    style={{ maxWidth: "300px", padding: "5px 10px" }}
-                >
-                    زمان در حال حرکت: {liveTime}
+            <div className={`${isRunning ? 'scale-up-down w-120 h-69 rounded-full bg-[radial-gradient(ellipse_at_center,rgba(34,197,94,0.63)_0%,transparent_83%)] backdrop-blur-lg rounded-full' : 'bg-[radial-gradient(ellipse_at_center,rgba(239,68,68,0.42)_0%,transparent_83%)]'}`}>
+                <img
+                    src="images/bg/Illustrator1.png"
+                    alt="تصویر"
+                    className={`w-120 h-69 object-contain ${isRunning ? 'scale-up-down' : ''}`}
+                />
+            </div>
+
+
+            {/* کارت تایمر */}
+            <div className={`${isRunning ? 'border-7 border-green-500/39 ' : 'border-6 border-red-500'} bg-white/80 backdrop-blur-lg rounded-3xl shadow-2xl flex flex-col items-center justify-center text-center p-6 w-67`}>
+                <h2 className="text-primary text-2xl font-bold">ثبت ورود و خروج</h2>
+
+                <div className="relative flex items-center justify-center w-30 h-30 rounded-full my-4 p-4">
+                    <span className="text-2xl font-mono text-primary p-4 m-2 rounded-full border-4 border-green-500/39">{liveTime}</span>
+                    {isRunning && <span className="absolute w-40 h-40 rounded-full m-4"></span>}
                 </div>
-            )}
 
-            <Button
-                className={isRunning ? "btn btn-danger mt-2" : "btn btn-primary mt-2"}
-                style={{
-                    width: "100%",
-                    maxWidth: "300px",
-                    padding: "10px 0",
-                    fontSize: "1rem",
-                    display: "flex",
-                    justifyContent: "center"
-                }}
-                onClick={isRunning ? handleCheckOut : handleCheckIn}
-            >
-                {isRunning ? "ثبت خروج" : "ثبت ورود"}
-            </Button>
+                <button
+                    onClick={isRunning ? handleCheckOut : handleCheckIn}
+                    className={`mb-2 w-36 py-2 rounded-full text-white font-semibold shadow-lg transition transform hover:scale-105 ${isRunning ? 'bg-red-500 hover:bg-red-600' : 'bg-green-500/63 hover:bg-green-500/90'
+                        }`}
+                >
+                    {isRunning ? '⏹ ثبت خروج' : '✔ ثبت ورود'}
+                </button>
+            </div>
+
+            {/* تصویر */}
         </div>
-
-
     );
 };
 
